@@ -242,6 +242,16 @@ vim.o.completeopt = 'menuone,noselect'
 vim.o.termguicolors = true
 
 vim.cmd.colorscheme "catppuccin"
+
+vim.api.nvim_set_hl(0, "Normal", { bg = "none"})
+vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none"})
+vim.api.nvim_set_hl(0, "WinSeparator", { bg = "none"})
+vim.api.nvim_set_hl(0, "NormalSB", { bg = "none"})
+vim.api.nvim_set_hl(0, "NonText", { bg = "none"})
+vim.api.nvim_set_hl(0, "TelescopeBorder", { bg = "none"})
+vim.api.nvim_set_hl(0, "NeoTreeNormal", { bg = "none"})
+vim.api.nvim_set_hl(0, "NeoTreeNormalNC", { bg = "none"})
+
 -- [[ Basic Keymaps ]]
 
 -- Keymaps for better default experience
